@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div class="form">
+        <div class="form-select">
+          <label for="destination">Destination</label><br />
+          <select name="destination" id="destination">
+            <option selected>Destination</option>
+            <option value="paris">Paris</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="sydney">Sydney</option>
+            <option value="sanFrancisco">San Francisco</option>
+          </select>
+        </div>
+        <div>
+          <label for="date">From Date</label><br />
+          <input type="date" name="date" id="date" required />
+        </div>
+        <div>
+          <label for="date">To Date</label><br />
+          <input type="date" name="date" id="date" required />
+        </div>
+        <div>
+          <label for="number">Guests</label><br />
+          <input type="number" name="number" id="number" value="2" />
+        </div>
+        <div>
+          <button type="submit"></button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

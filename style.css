@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form {
+  background-image: url("/522708.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 200px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: center;
+}
+
+select,
+option {
+  border-radius: 5px;
+  height: 30px;
+  width: 30vh;
+}
+input {
+  border-radius: 5px;
+  height: 30px;
+  width: 30vh;
+  padding: 5px;
+  border: none;
+}
+
+#number {
+  width: 80px;
+}
+
+button {
+  background-color: orange;
+  border-radius: 50%;
+margin-top: 15px;
+  border: none;
+  height: 40px;
+  width: 10vh;
+  background-image: url("/icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+ 
+  .form-select,
+  select,
+  option {
+    width: 100%;
+    margin-bottom: 5px;
+    margin: 2px;
+    padding: 5px;
+  }
+
+  button {
+    border-radius: 25px;
+    margin-top: 10px;
+    border: none;
+    height: 40px;
+    width: 85vh;
+    padding: 10px;
+  }
+}
